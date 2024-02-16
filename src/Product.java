@@ -7,6 +7,7 @@ public class Product {
     };
 
     public Product(int id, String name, double unitPrice, String detail){
+        this(); //bu classtaki parametresiz olan contructeri calistir. Birbirini calistirabilir.
         this.id=id;
         this.name=name;
         this.unitPrice=unitPrice;

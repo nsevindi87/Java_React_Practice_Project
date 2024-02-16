@@ -59,5 +59,12 @@ public class Main {
         Category caregory01 = new Category();
         caregory01.id=1;
         caregory01.name = "Ev/Bahce";
+
+        //Metod tutan class olusturma, cagirma ve parametre gönderme!
+        ProductManger productManger = new ProductManger();
+        productManger.addToCart(product01);
+        productManger.addToCart(product02);
+        productManger.addToCart(product03);
+
     }
 }
