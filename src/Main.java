@@ -39,7 +39,32 @@ public class Main {
 
         //================================= DAY02
 
+        Product product01 = new Product(); //intance creation
+        product01.id =1;
+        product01.name ="Lenovo V14";
+        product01.unitPrice =12000;
+        product01.detail="16 GB Ram";
 
+        Product product02 = new Product();
+        product02.id =2;
+        product02.name ="Lenovo V15";
+        product02.unitPrice =15000;
+        product02.detail="16 GB Ram";
+
+        Product product03 = new Product();
+        product03.id =3;
+        product03.name ="Lenovo V16";
+        product03.unitPrice =14000;
+        product03.detail="8 GB Ram";
+
+
+        Product[] products ={product01, product02, product03};
+
+        for (Product product: products){
+            System.out.println(product.name);
+        }
+
+        System.out.println(products.length);
 
     }
 }
