@@ -82,12 +82,16 @@ public class Main {
 
          */
 
-        //Inheritance
+        //Inheritance - Polimorfizm
         IndividualCustomer nizami = new IndividualCustomer();
-        nizami.id = 1;
+        nizami.customerNumber = "11111";
 
         CorparateCustomer sony = new CorparateCustomer();
-        sony.id = 2;
+        sony.customerNumber = "22222";
+
+        CustumerManager custumerManager = new CustumerManager();
+        custumerManager.add(nizami);
+        custumerManager.add(sony);
 
     }
 }
