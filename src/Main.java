@@ -38,7 +38,7 @@ public class Main {
          */
 
         //================================= DAY02
-
+    /*
         Product product01 = new Product(1, "Lenovo V14", 12000, "16 GB Ram"); //intance creation
         Product product02 = new Product(2, "Lenovo V15", 14000, "6 GB Ram");
         Product product03 = new Product(3, "Lenovo V16", 16000, "20 GB Ram");
@@ -65,6 +65,20 @@ public class Main {
         productManger.addToCart(product01);
         productManger.addToCart(product02);
         productManger.addToCart(product03);
+
+     */
+
+        //DAY03
+        Product product01 = new Product(1, "Lenovo V14", 12000, "16 GB Ram",10);
+
+        Product product02 = new Product();
+        product02.setId(2);
+        product02.setName("HP");
+        product02.setDetail("16 GB Ram");
+        product02.setDiscount(10);
+        product02.setUnitPrice(16000);
+        System.out.println(product02.getUnitPriceAfterDiscount());
+
 
     }
 }
