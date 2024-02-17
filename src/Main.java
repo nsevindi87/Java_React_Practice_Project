@@ -81,7 +81,7 @@ public class Main {
         System.out.println(product02.getUnitPriceAfterDiscount());
 
          */
-
+        /*
         //Inheritance - Polimorfizm
         IndividualCustomer nizami = new IndividualCustomer();
         nizami.customerNumber = "11111";
@@ -90,8 +90,14 @@ public class Main {
         sony.customerNumber = "22222";
 
         CustumerManager custumerManager = new CustumerManager();
-        custumerManager.add(nizami);
-        custumerManager.add(sony);
+        //custumerManager.add(nizami);
+        //custumerManager.add(sony);
+
+        Customer[] customers = {nizami, sony};
+        custumerManager.addMultiple(customers);
+
+         */
+        //Inheritance2
 
     }
 }
