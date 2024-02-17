@@ -3,8 +3,8 @@
 public class Main {
     public static void main(String[] args) {
 
+        //================================= DAY01
         /*
-        ================================= DAY01
         //VARIABLES
         String newValue = "Hello World";
         int newNumber = 13;
@@ -38,7 +38,7 @@ public class Main {
          */
 
         //================================= DAY02
-    /*
+        /*
         Product product01 = new Product(1, "Lenovo V14", 12000, "16 GB Ram"); //intance creation
         Product product02 = new Product(2, "Lenovo V15", 14000, "6 GB Ram");
         Product product03 = new Product(3, "Lenovo V16", 16000, "20 GB Ram");
@@ -69,6 +69,7 @@ public class Main {
      */
 
         //DAY03
+        /*
         Product product01 = new Product(1, "Lenovo V14", 12000, "16 GB Ram",10);
 
         Product product02 = new Product();
@@ -79,6 +80,14 @@ public class Main {
         product02.setUnitPrice(16000);
         System.out.println(product02.getUnitPriceAfterDiscount());
 
+         */
+
+        //Inheritance
+        IndividualCustomer nizami = new IndividualCustomer();
+        nizami.id = 1;
+
+        CorparateCustomer sony = new CorparateCustomer();
+        sony.id = 2;
 
     }
 }
