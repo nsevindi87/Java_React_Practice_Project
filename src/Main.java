@@ -98,6 +98,7 @@ public class Main {
 
          */
         //Inheritance2
+        
 
     }
 }
